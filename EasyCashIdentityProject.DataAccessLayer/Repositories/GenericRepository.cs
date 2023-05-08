@@ -17,6 +17,7 @@ namespace EasyCashIdentityProject.DataAccessLayer.Repositories
             context.SaveChanges();
         }
 
+
         public List<T> GetAll()
         {
             using var context=new Context();
